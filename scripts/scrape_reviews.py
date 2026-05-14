@@ -37,5 +37,3 @@ df = pd.DataFrame(all_data)
 print("Total reviews:", len(df))
 
 df.to_csv("data/raw/bank_reviews_raw.csv", index=False)
-
-print("Saved successfully!")
